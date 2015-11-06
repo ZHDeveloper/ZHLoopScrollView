@@ -28,7 +28,7 @@
         UIImage *image = [UIImage imageNamed:imageName];
         [arr addObject:image];
     }
-    
+        
     self.bannerView.imageArr = arr;
     
     self.bannerView.clickBlock = ^(ZHLoopScrollView *view, NSUInteger index) {
