@@ -16,7 +16,9 @@
     - (void)initWith:(NSTimeInterval)timeInterval pageTintColor:(UIColor *)pageIndicatorTintColor currentPageTintColor:(UIColor *)currentPageIndicatorTintColor imageArr:(NSArray *)imageArr clickBlock:(ClickBlock)block;
 
 使用方法二：
+
 使用xib来初始化
-1、在xib中指定view的类型为ZHLoopScrollView。
-2、连线到文件中
-3、设置类型的属性
+
+1. 在xib中指定view的类型为ZHLoopScrollView。
+2. 连线到文件中
+3. 设置类型的属性
